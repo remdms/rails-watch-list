@@ -2,8 +2,8 @@ require 'open-uri'
 require 'json'
 
 puts "clearing DB..."
-Movie.destroy_all
 List.destroy_all
+Movie.destroy_all
 Bookmark.destroy_all
 
 puts "retrieving movies..."
